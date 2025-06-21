@@ -22,7 +22,9 @@ def on_message(client, userdata, message):
 #calling
 client.on_message = on_message
 
+#Example string
+msg = "Hello all"
 #publishing the same string to mqtt broker, i.e ESP32
 client.publish(topic, msg)
 print(f"Published message: {msg}")
-time.sleep(0.05)
+time.sleep(1)
