@@ -72,4 +72,4 @@ Try editing the callback function inside `mqtt.subscribe` function to blink an L
 
 ## Advanced Implementation
 
-You can experiment with more deeper execution of the code by using only **`<WiFi.h>`** and **`<MQTT.h>`** libraries, coming soon!!
+You can experiment with more deeper execution of the code by using only **`<WiFi.h>`** and **`<PubSubClient.h>`** libraries, coming soon!!
